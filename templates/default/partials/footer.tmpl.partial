@@ -1,0 +1,17 @@
+{{!Licensed to the .NET Foundation under one or more agreements. The .NET Foundation licenses this file to you under the MIT license.}}
+
+<footer>
+  <div class="grad-bottom"></div>
+  <div class="footer">
+    <div class="container">
+      <span class="pull-right">
+        <a href="#top">{{__global.backToTop}}</a>
+      </span>
+      {{{_appFooter}}}
+      {{^_appFooter}}
+        Copyright (c) 2024 ClassIsland | 本文档以 CC BY-NC-SA 4.0 许可协议授权。<br/>
+        <span>通过 <strong>DocFX</strong> 生成。</span>
+      {{/_appFooter}}
+    </div>
+  </div>
+</footer>
