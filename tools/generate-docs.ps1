@@ -1,11 +1,12 @@
 param($ref)
 
+$ErrorActionPreference = 'Stop'
 
 if (Test-Path -Path ./ClassIsland) {
     Remove-Item -Path ./ClassIsland -Recurse -Force
 }
 
-git clone --recursive git@github.com:ClassIsland/ClassIsland.git
+git clone --recursive https://github.com/ClassIsland/ClassIsland.git
 Set-Location .\ClassIsland
 if ($null -eq $ref) {
     $ref = $(git tag --sort=-creatordate)[0]
