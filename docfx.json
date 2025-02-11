@@ -13,6 +13,7 @@
           "src": "ClassIsland/"
         }
       ],
+      "filter": "configs/filterConfig.yml",
       "dest": "api"
     }
   ],
@@ -24,7 +25,8 @@
         ],
         "exclude": [
           "_site/**",
-          "ClassIsland/**"
+          "ClassIsland/**",
+          "configs/**"
         ]
       }
     ],
@@ -40,14 +42,15 @@
       "default",
       "default(zh-cn)",
       "modern",
-      "templates/material",
-      "templates/default"
+      "templates/material"
     ],
     "globalMetadata": {
       "_appName": "ClassIsland API 文档",
       "_appTitle": "ClassIsland API 文档",
       "_appFooter": "Copyright (c) 2025 ClassIsland | 本文档以 CC BY-NC-SA 4.0 许可协议授权 | 使用 <a href=\"https://github.com/dotnet/docfx\" target=\"_blank\">docfx</a> 生成 | <a href=\"https://beian.miit.gov.cn/\" target=\"_blank\"> 沪 ICP 备 2024084943 号</a> | <img src=\"https://www.beian.gov.cn/img/new/gongan.png\" > <a href=\"https://beian.mps.gov.cn/#/query/webSearch\" target=\"_blank\"> 沪公网安备 31012002006157 号 </a>",
       "_enableSearch": true,
+      "_appLogoPath": "images/logo.svg",
+      "_appFaviconPath": "images/favicon.ico",
       "pdf": false
     },
     "sitemap": {

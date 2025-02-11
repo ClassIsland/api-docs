@@ -180,3 +180,9 @@ code {
   margin: 4px 2px;
   box-shadow: var(--card-box-shadow);
 }
+
+#logo {
+  width: 38pt;
+  height: 38pt;
+  margin: 0 8px 0 0;
+}
